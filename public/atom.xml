@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
-  <link href="http://yoursite.com/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
-  <updated>2012-10-02T21:23:37-05:00</updated>
-  <id>http://yoursite.com/</id>
+  <title><![CDATA[Adam's Dev Blog]]></title>
+  <link href="http://adam-dev-blog.heroku.com/atom.xml" rel="self"/>
+  <link href="http://adam-dev-blog.heroku.com/"/>
+  <updated>2012-10-02T21:32:43-05:00</updated>
+  <id>http://adam-dev-blog.heroku.com/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Adam Krone]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Testing Octopress/Heroku]]></title>
-    <link href="http://yoursite.com/blog/2012/10/02/testing-octopress-slash-heroku/"/>
+    <link href="http://adam-dev-blog.heroku.com/blog/2012/10/02/testing-octopress-slash-heroku/"/>
     <updated>2012-10-02T21:12:00-05:00</updated>
-    <id>http://yoursite.com/blog/2012/10/02/testing-octopress-slash-heroku</id>
+    <id>http://adam-dev-blog.heroku.com/blog/2012/10/02/testing-octopress-slash-heroku</id>
     <content type="html"><![CDATA[<p>So I&#8217;m going to try keeping a developer blog where I share various things I&#8217;ve learned lately. Perhaps it will also include tutorials or other useful things. Let&#8217;s try some things out!</p>
 
 <h2>Swanky sub-header (I hope?)</h2>
