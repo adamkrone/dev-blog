@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Octopress Blog]]></title>
+  <link href="http://yoursite.com/atom.xml" rel="self"/>
+  <link href="http://yoursite.com/"/>
+  <updated>2012-10-02T21:23:37-05:00</updated>
+  <id>http://yoursite.com/</id>
+  <author>
+    <name><![CDATA[Your Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Testing Octopress/Heroku]]></title>
+    <link href="http://yoursite.com/blog/2012/10/02/testing-octopress-slash-heroku/"/>
+    <updated>2012-10-02T21:12:00-05:00</updated>
+    <id>http://yoursite.com/blog/2012/10/02/testing-octopress-slash-heroku</id>
+    <content type="html"><![CDATA[<p>So I&#8217;m going to try keeping a developer blog where I share various things I&#8217;ve learned lately. Perhaps it will also include tutorials or other useful things. Let&#8217;s try some things out!</p>
+
+<h2>Swanky sub-header (I hope?)</h2>
+
+<p>Hopefully this is displaying correctly. Let&#8217;s try a code block:</p>
+
+<figure class='code'><figcaption><span>Some useless function</span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='javascript'><span class='line'>   <span class="kd">var</span> <span class="nx">someFunc</span> <span class="o">=</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">a</span><span class="p">,</span> <span class="nx">b</span><span class="p">)</span> <span class="p">{</span>
+</span><span class='line'>      <span class="kd">var</span> <span class="nx">total</span> <span class="o">=</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span><span class="p">;</span>
+</span><span class='line'>      <span class="k">return</span> <span class="s2">&quot;Nothing of use&quot;</span><span class="p">;</span>
+</span><span class='line'>  <span class="p">};</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>How about something that&#8217;s actually useful? Here is a test with including Github gists:</p>
+
+<div><script src='https://gist.github.com/3778220.js?file='></script>
+<noscript><pre><code>// http://dustindiaz.com/autocomplete-fuzzy-matching
+
+var people = ['Daniel', 'Dustin', 'David', 'Damarcus', 'Russ'];
+
+function matchPeople(input) {
+  var reg = new RegExp(input.split('').join('\\w*').replace(/\W/, &quot;&quot;), 'i');
+  return people.filter(function(person) {
+    if (person.match(reg)) {
+      return person;
+    }
+  });
+}</code></pre></noscript></div>
+
+
+<p>This is a fuzzy search algorithm I&#8217;ve been playing around with for use in a type-ahead style search dropdown plugin. More on that later.</p>
+
+<p>I&#8217;m looking forward to playing around with this blog in the future, and hopefully next time I&#8217;ll have something of real interest to write about!</p>
+
+<p>Adam</p>
+]]></content>
+  </entry>
+  
+</feed>
