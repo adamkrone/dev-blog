@@ -4,7 +4,7 @@
   <title><![CDATA[Adam's Dev Blog]]></title>
   <link href="http://adam-dev-blog.heroku.com/atom.xml" rel="self"/>
   <link href="http://adam-dev-blog.heroku.com/"/>
-  <updated>2012-10-12T21:14:51-05:00</updated>
+  <updated>2012-10-18T20:57:09-05:00</updated>
   <id>http://adam-dev-blog.heroku.com/</id>
   <author>
     <name><![CDATA[Adam Krone]]></name>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[The New Adamkrone.com]]></title>
-    <link href="http://adam-dev-blog.heroku.com/blog/2012/10/12/the-new-adamkrone.com/"/>
-    <updated>2012-10-12T20:57:00-05:00</updated>
-    <id>http://adam-dev-blog.heroku.com/blog/2012/10/12/the-new-adamkrone.com</id>
+    <link href="http://adam-dev-blog.heroku.com/blog/2012/10/12/the-new-adamkrone-dot-com/"/>
+    <updated>2012-10-12T21:18:00-05:00</updated>
+    <id>http://adam-dev-blog.heroku.com/blog/2012/10/12/the-new-adamkrone-dot-com</id>
     <content type="html"><![CDATA[<p>I’ve been meaning to update my site for a while, and I figured until I have things figured out I would just keep a simple blog. Seeing as I’ve been trying out Octopress, I figured why not migrate it over here. I’m not sure how long I’ll keep this here, as it really depends on if/when I redo my site. Perhaps it would make the most sense keep this is simply a blog.</p>
 
 <p>I was hoping my next post would be more interesting than this, but I just wanted to put something up here quickly so that the top post wasn’t “Testing Octopress/Heroku”. I have a few cool things I’ve worked on recently that I’d like to share, so hopefully I’ll get around to posting that sometime this weekend.</p>
